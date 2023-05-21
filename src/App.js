@@ -21,12 +21,12 @@ function App() {
                   <FeedbackForm />
                   <FeedbackStats />
                   <FeedbackList />
-                  <AbouticonLink />
                 </>
               }
             />
             <Route path="/about" element={<AboutPage />} />
           </Routes>
+          <AbouticonLink />
         </div>
       </Router>
     </FeedbackProvider>
